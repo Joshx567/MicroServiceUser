@@ -1,0 +1,31 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build
+bin/
+obj/
+out/
+
+# Logs
+*.log
+
+# Temp
+*.cache
+*.tmp
+
+# Auto-generated
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Razor cache
+*.rjsm*
+*.dswa*
+
+# Source link files
+*sourcelink.json

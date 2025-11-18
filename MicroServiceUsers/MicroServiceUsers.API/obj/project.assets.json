@@ -13,6 +13,41 @@
           "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
         }
       },
+      "Microsoft.Extensions.DependencyInjection/10.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.targets": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets": {}
+        }
+      },
       "Microsoft.OpenApi/1.2.3": {
         "type": "package",
         "compile": {
@@ -88,6 +123,43 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "MicroServiceUsers.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MicroServiceUsers.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MicroServiceUsers.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MicroServiceUsers.Application.dll": {}
+        }
+      },
+      "MicroServiceUsers.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MicroServiceUsers.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MicroServiceUsers.Domain.dll": {}
+        }
+      },
+      "MicroServiceUsers.Infrastruture/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MicroServiceUsers.Application": "1.0.0",
+          "MicroServiceUsers.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MicroServiceUsers.Infrastruture.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MicroServiceUsers.Infrastruture.dll": {}
+        }
       }
     }
   },
@@ -323,6 +395,68 @@
         "tools/netcoreapp2.1/System.Diagnostics.DiagnosticSource.dll"
       ]
     },
+    "Microsoft.Extensions.DependencyInjection/10.0.0": {
+      "sha512": "f0RBabswJq+gRu5a+hWIobrLWiUYPKMhCD9WO3sYBAdSy3FFH14LMvLVFZc2kPSCimBLxSuitUhsd6tb0TAY6A==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/10.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.targets",
+        "lib/net10.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net10.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.10.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.0": {
+      "sha512": "L3AdmZ1WOK4XXT5YFPEwyt0ep6l8lGIPs7F5OOBZc77Zqeo01Of7XXICy47628sdVl0v/owxYJTe86DTgFwKCA==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/10.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "Microsoft.OpenApi/1.2.3": {
       "sha512": "Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
       "type": "package",
@@ -429,10 +563,29 @@
         "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "MicroServiceUsers.Application/1.0.0": {
+      "type": "project",
+      "path": "../MicroServiceUsers.Application/MicroServiceUsers.Application.csproj",
+      "msbuildProject": "../MicroServiceUsers.Application/MicroServiceUsers.Application.csproj"
+    },
+    "MicroServiceUsers.Domain/1.0.0": {
+      "type": "project",
+      "path": "../MicroServiceUsers.Domain/MicroServiceUsers.Domain.csproj",
+      "msbuildProject": "../MicroServiceUsers.Domain/MicroServiceUsers.Domain.csproj"
+    },
+    "MicroServiceUsers.Infrastruture/1.0.0": {
+      "type": "project",
+      "path": "../MicroServiceUsers.Infrastruture/MicroServiceUsers.Infrastruture.csproj",
+      "msbuildProject": "../MicroServiceUsers.Infrastruture/MicroServiceUsers.Infrastruture.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "MicroServiceUsers.Application >= 1.0.0",
+      "MicroServiceUsers.Domain >= 1.0.0",
+      "MicroServiceUsers.Infrastruture >= 1.0.0",
+      "Microsoft.Extensions.DependencyInjection >= 10.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -467,7 +620,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioUsers\\MicroServiceUsers\\MicroServiceUsers.Application\\MicroServiceUsers.Application.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioUsers\\MicroServiceUsers\\MicroServiceUsers.Application\\MicroServiceUsers.Application.csproj"
+            },
+            "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioUsers\\MicroServiceUsers\\MicroServiceUsers.Domain\\MicroServiceUsers.Domain.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioUsers\\MicroServiceUsers\\MicroServiceUsers.Domain\\MicroServiceUsers.Domain.csproj"
+            },
+            "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioUsers\\MicroServiceUsers\\MicroServiceUsers.Infrastruture\\MicroServiceUsers.Infrastruture.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioUsers\\MicroServiceUsers\\MicroServiceUsers.Infrastruture\\MicroServiceUsers.Infrastruture.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -486,6 +649,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[10.0.0, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.5.0, )"

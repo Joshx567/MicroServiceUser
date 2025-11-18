@@ -9,3 +9,5 @@ C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServi
 C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.Infrastruture\obj\Debug\net6.0\refint\MicroServiceUsers.Infrastruture.dll
 C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.Infrastruture\obj\Debug\net6.0\MicroServiceUsers.Infrastruture.pdb
 C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.Infrastruture\obj\Debug\net6.0\ref\MicroServiceUsers.Infrastruture.dll
+C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.Infrastruture\obj\Debug\net6.0\MicroServiceUsers.Infrastruture.sourcelink.json
+C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.Infrastruture\obj\Debug\net6.0\MicroServiceUsers.Infrastruture.csproj.AssemblyReference.cache

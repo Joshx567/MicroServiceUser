@@ -7,7 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MicroServiceUsers.Application\MicroServiceUsers.Application.csproj" />
+    <ProjectReference Include="..\MicroServiceUsers.Domain\MicroServiceUsers.Domain.csproj" />
+    <ProjectReference Include="..\MicroServiceUsers.Infrastruture\MicroServiceUsers.Infrastruture.csproj" />
   </ItemGroup>
 
 </Project>

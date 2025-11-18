@@ -33,3 +33,4 @@ C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServi
 C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.API\obj\Debug\net6.0\MicroServiceUsers.API.pdb
 C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.API\obj\Debug\net6.0\MicroServiceUsers.API.genruntimeconfig.cache
 C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.API\obj\Debug\net6.0\ref\MicroServiceUsers.API.dll
+C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.API\obj\Debug\net6.0\MicroServiceUsers.API.sourcelink.json

@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "MicroServiceUsers.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MicroServiceUsers.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MicroServiceUsers.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MicroServiceUsers.Application.dll": {}
+        }
+      },
+      "MicroServiceUsers.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MicroServiceUsers.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MicroServiceUsers.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MicroServiceUsers.Application/1.0.0": {
+      "type": "project",
+      "path": "../MicroServiceUsers.Application/MicroServiceUsers.Application.csproj",
+      "msbuildProject": "../MicroServiceUsers.Application/MicroServiceUsers.Application.csproj"
+    },
+    "MicroServiceUsers.Domain/1.0.0": {
+      "type": "project",
+      "path": "../MicroServiceUsers.Domain/MicroServiceUsers.Domain.csproj",
+      "msbuildProject": "../MicroServiceUsers.Domain/MicroServiceUsers.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "MicroServiceUsers.Application >= 1.0.0",
+      "MicroServiceUsers.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ASUS\\.nuget\\packages\\": {},
@@ -38,7 +76,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioUsers\\MicroServiceUsers\\MicroServiceUsers.Application\\MicroServiceUsers.Application.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioUsers\\MicroServiceUsers\\MicroServiceUsers.Application\\MicroServiceUsers.Application.csproj"
+            },
+            "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioUsers\\MicroServiceUsers\\MicroServiceUsers.Domain\\MicroServiceUsers.Domain.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioUsers\\MicroServiceUsers\\MicroServiceUsers.Domain\\MicroServiceUsers.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
