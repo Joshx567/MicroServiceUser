@@ -1,0 +1,115 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+# #################### #
+# ## Visual Studio ## #
+# #################### #
+# Archivos de configuraci�n espec�ficos del usuario y de la soluci�n
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de cach� y temporales de Visual Studio
+.vs/
+!/.vs/slnx.sqlite
+
+# #################### #
+# ##      .NET      ## #
+# #################### #
+# Carpetas de compilaci�n
+[Bb]in/
+[Oo]bj/
+
+# Carpetas de publicaci�n
+[Rr]elease/
+[Dd]ebug/
+[Pp]ublish/
+
+# Archivos de paquetes NuGet
+# Ignora la carpeta de paquetes del antiguo formato packages.config
+packages/
+# Ignora los paquetes descargados por dotnet store
+.store/
+# No ignores el archivo de configuraci�n de paquetes
+!**/packages.config
+
+# Archivos de paquetes NuGet generados
+*.nupkg
+*.snk
+
+# ############################# #
+# ## IDEs y Herramientas ## #
+# ############################# #
+# JetBrains Rider
+.idea/
+
+# ReSharper
+_ReSharper*/
+*.[Rr]esharper
+*.DotSettings.user
+
+# Visual Studio Code (ignora la configuraci�n local del usuario)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ############################## #
+# ## Archivos Sensibles ## #
+# ############################## #
+# Archivos de configuraci�n de desarrollo y secretos. �NUNCA los subas!
+appsettings.Development.json
+secrets.json
+user-secrets/
+*.secrets.json
+*.env
+
+# Archivos de configuraci�n de publicaci�n que pueden contener contrase�as
+*.pubxml
+*.publish.xml
+
+# ########################################### #
+# ## Bases de Datos Locales y Diagn�sticos ## #
+# ########################################### #
+# Bases de datos locales de SQL Server
+*.mdf
+*.ldf
+*.sdf
+
+# Archivos de registro y reportes
+*.log
+logs/
+*.log.*
+*.trx
+TestResults/
+coverage.*
+
+# Archivos de diagn�stico y profiling de Visual Studio
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# ############################# #
+# ##   Sistema Operativo   ## #
+# ############################# #
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+*.swp
+/MicroServiceMembership/MicroServiceMembership.csproj
