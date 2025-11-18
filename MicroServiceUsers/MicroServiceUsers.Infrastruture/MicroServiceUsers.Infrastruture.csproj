@@ -7,8 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.66" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.0" />
+    <PackageReference Include="Npgsql" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MicroServiceUsers.Application\MicroServiceUsers.Application.csproj" />
-    <ProjectReference Include="..\MicroServiceUsers.Domain\MicroServiceUsers.Domain.csproj" />
   </ItemGroup>
 
 </Project>

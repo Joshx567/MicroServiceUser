@@ -1,8 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "3JamfMCuBEw=",
+  "dgSpecHash": "bHcs+nc/qB0=",
   "success": true,
   "projectFilePath": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioUsers\\MicroServiceUsers\\MicroServiceUsers.Infrastruture\\MicroServiceUsers.Infrastruture.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.1\\microsoft.bcl.asyncinterfaces.9.0.1.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.0\\microsoft.extensions.dependencyinjection.10.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\npgsql\\9.0.4\\npgsql.9.0.4.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.1\\system.diagnostics.diagnosticsource.8.0.1.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512"
+  ],
   "logs": []
 }
