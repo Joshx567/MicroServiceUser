@@ -50,3 +50,12 @@ C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServi
 C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.API\bin\Debug\net6.0\MicroServiceUsers.Application.pdb
 C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.API\bin\Debug\net6.0\MicroServiceUsers.Domain.pdb
 C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.API\bin\Debug\net6.0\MicroServiceUsers.Infrastruture.pdb
+C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.API\bin\Debug\net6.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

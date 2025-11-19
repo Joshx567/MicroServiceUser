@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MicroServiceUsers.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f6b650d5b67f9709731f8337b33aca204f890b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3e51bba6039b8904c10953dba3c2ebadde6c489")]
 [assembly: System.Reflection.AssemblyProductAttribute("MicroServiceUsers.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MicroServiceUsers.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
