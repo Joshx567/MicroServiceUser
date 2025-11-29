@@ -1,7 +1,6 @@
 ﻿using ServiceUser.Application.Common;
 using ServiceUser.Domain.Entities;
 using System;
-using System.Text.RegularExpressions;
 
 namespace ServiceUser.Domain.Rules
 {
@@ -12,48 +11,48 @@ namespace ServiceUser.Domain.Rules
             if (user == null)
                 return Result<User>.Failure("El usuario no puede ser nulo.");
 
-            var nombreResult = UserValidationRules.ValidarNombreCompleto(user.Name);
+            var nombreResult = UserValidationRules.ValidarNombreCompleto(user.name);
             if (nombreResult.IsFailure) return Result<User>.Failure(nombreResult.Error);
 
-            var primerApellidoResult = UserValidationRules.ValidarNombreCompleto(user.FirstLastname);
+            var primerApellidoResult = UserValidationRules.ValidarNombreCompleto(user.first_lastname);
             if (primerApellidoResult.IsFailure) return Result<User>.Failure("Primer apellido: " + primerApellidoResult.Error);
 
-            if (!string.IsNullOrWhiteSpace(user.SecondLastname))
+            if (!string.IsNullOrWhiteSpace(user.second_lastname))
             {
-                var segundoApellidoResult = UserValidationRules.ValidarNombreCompleto(user.SecondLastname);
+                var segundoApellidoResult = UserValidationRules.ValidarNombreCompleto(user.second_lastname);
                 if (segundoApellidoResult.IsFailure) return Result<User>.Failure("Segundo apellido: " + segundoApellidoResult.Error);
             }
 
-            var ciResult = UserValidationRules.ValidarCi(user.Ci);
+            var ciResult = UserValidationRules.ValidarCi(user.ci);
             if (ciResult.IsFailure) return Result<User>.Failure(ciResult.Error);
 
-            var fechaNacResult = UserValidationRules.ValidarFechaNacimiento(user.DateBirth);
+            var fechaNacResult = UserValidationRules.ValidarFechaNacimiento(user.date_birth);
             if (fechaNacResult.IsFailure) return Result<User>.Failure(fechaNacResult.Error);
 
-            var rolResult = UserValidationRules.ValidarRol(user.Role);
+            var rolResult = UserValidationRules.ValidarRol(user.role);
             if (rolResult.IsFailure) return Result<User>.Failure(rolResult.Error);
 
-            if (user.HireDate.HasValue)
+            if (user.hire_date.HasValue)
             {
-                var fechaContratacionResult = UserValidationRules.ValidarFechaContratacion(user.HireDate, user.DateBirth);
+                var fechaContratacionResult = UserValidationRules.ValidarFechaContratacion(user.hire_date, user.date_birth);
                 if (fechaContratacionResult.IsFailure) return Result<User>.Failure(fechaContratacionResult.Error);
             }
 
-            if (!string.IsNullOrWhiteSpace(user.Role) &&
-                (user.Role.Equals("Instructor", StringComparison.OrdinalIgnoreCase) ||
-                 user.Role.Equals("Admin", StringComparison.OrdinalIgnoreCase)))
+            if (!string.IsNullOrWhiteSpace(user.role) &&
+                (user.role.Equals("Instructor", StringComparison.OrdinalIgnoreCase) ||
+                 user.role.Equals("Admin", StringComparison.OrdinalIgnoreCase)))
             {
-                var salarioResult = UserValidationRules.ValidarSalario(user.MonthlySalary);
+                var salarioResult = UserValidationRules.ValidarSalario(user.monthly_salary);
                 if (salarioResult.IsFailure) return Result<User>.Failure(salarioResult.Error);
             }
 
-            if (user.Role?.Equals("Instructor", StringComparison.OrdinalIgnoreCase) == true)
+            if (user.role?.Equals("Instructor", StringComparison.OrdinalIgnoreCase) == true)
             {
-                var espResult = UserValidationRules.ValidarEspecializacion(user.Specialization);
+                var espResult = UserValidationRules.ValidarEspecializacion(user.specialization);
                 if (espResult.IsFailure) return Result<User>.Failure(espResult.Error);
             }
 
-            var emailResult = UserValidationRules.ValidarEmail(user.Email);
+            var emailResult = UserValidationRules.ValidarEmail(user.email);
             if (emailResult.IsFailure) return Result<User>.Failure(emailResult.Error);
 
             return Result<User>.Success(user);

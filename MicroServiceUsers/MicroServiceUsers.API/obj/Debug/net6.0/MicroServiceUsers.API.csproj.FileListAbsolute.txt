@@ -5,7 +5,6 @@ C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServi
 C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.API\obj\Debug\net6.0\MicroServiceUsers.API.AssemblyInfo.cs
 C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.API\obj\Debug\net6.0\MicroServiceUsers.API.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.API\obj\Debug\net6.0\MicroServiceUsers.API.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.API\obj\Debug\net6.0\MicroServiceUsers.API.sourcelink.json
 C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.API\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.API\bin\Debug\net6.0\appsettings.json
 C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.API\bin\Debug\net6.0\MicroServiceUsers.API.staticwebassets.endpoints.json

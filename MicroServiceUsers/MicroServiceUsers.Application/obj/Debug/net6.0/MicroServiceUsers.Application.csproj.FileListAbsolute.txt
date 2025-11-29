@@ -8,7 +8,6 @@ C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServi
 C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.Application\obj\Debug\net6.0\MicroServiceUsers.Application.AssemblyInfoInputs.cache
 C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.Application\obj\Debug\net6.0\MicroServiceUsers.Application.AssemblyInfo.cs
 C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.Application\obj\Debug\net6.0\MicroServiceUsers.Application.csproj.CoreCompileInputs.cache
-C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.Application\obj\Debug\net6.0\MicroServiceUsers.Application.sourcelink.json
 C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.Application\obj\Debug\net6.0\MicroSer.94EF4BD7.Up2Date
 C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.Application\obj\Debug\net6.0\MicroServiceUsers.Application.dll
 C:\Users\ASUS\source\repos\Gympt\MicroServicioUsers\MicroServiceUsers\MicroServiceUsers.Application\obj\Debug\net6.0\refint\MicroServiceUsers.Application.dll
